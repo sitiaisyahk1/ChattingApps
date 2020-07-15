@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ChattingApps</string>
+    <string name="text_user_name">username</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_email">email</string>
+    <string name="text_password">password</string>
+    <string name="text_signup">register</string>
+    <string name="text_login">Login</string>
+</resources>
