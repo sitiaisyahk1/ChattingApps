@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="@dimen/_20dp"
-    tools:context=".activity.VisitUserProfileActivity">
+    tools:context=".activity.VisitProfileActivity">
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cv_visit_profile"
@@ -19,14 +19,14 @@
             android:padding="@dimen/_10dp">
 
             <ImageView
-                android:id="@+id/cover_display"
+                android:id="@+id/iv_cover_visit"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_200dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/cover" />
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/profile_display"
+                android:id="@+id/iv_profile_visit"
                 android:layout_width="@dimen/_150dp"
                 android:layout_height="@dimen/_150dp"
                 android:layout_centerHorizontal="true"
@@ -35,10 +35,10 @@
                 android:src="@drawable/profile" />
 
             <TextView
-                android:id="@+id/username_display"
+                android:id="@+id/tv_username_visit"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/profile_display"
+                android:layout_below="@id/iv_profile_visit"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="@dimen/_15dp"
                 android:layout_marginBottom="@dimen/_20dp"
@@ -63,7 +63,7 @@
         android:padding="@dimen/_6dp">
 
         <ImageView
-            android:id="@+id/facebook_display"
+            android:id="@+id/iv_fb_visit"
             android:layout_width="@dimen/_60dp"
             android:layout_height="@dimen/_60dp"
             android:layout_gravity="center"
@@ -73,7 +73,7 @@
             android:src="@drawable/fb" />
 
         <ImageView
-            android:id="@+id/instagram_display"
+            android:id="@+id/iv_instagram_visit"
             android:layout_width="@dimen/_60dp"
             android:layout_height="@dimen/_60dp"
             android:layout_gravity="center"
@@ -83,7 +83,7 @@
             android:src="@drawable/instagram" />
 
         <ImageView
-            android:id="@+id/website_display"
+            android:id="@+id/iv_website_visit"
             android:layout_width="@dimen/_60dp"
             android:layout_height="@dimen/_60dp"
             android:layout_gravity="center"
@@ -95,7 +95,7 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/send_msg_btn"
+        android:id="@+id/btn_send_message_visit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/ll1"

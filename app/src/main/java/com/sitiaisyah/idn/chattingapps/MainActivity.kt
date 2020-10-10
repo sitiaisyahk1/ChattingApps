@@ -5,11 +5,11 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Toolbar
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
+import com.bumptech.glide.Glide
 import com.google.android.material.tabs.TabLayout
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
@@ -19,7 +19,6 @@ import com.sitiaisyah.idn.chattingapps.fragment.ChatFragment
 import com.sitiaisyah.idn.chattingapps.fragment.SearchFragment
 import com.sitiaisyah.idn.chattingapps.fragment.SettingFragment
 import com.sitiaisyah.idn.chattingapps.model.Users
-import com.squareup.picasso.Picasso
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -55,7 +54,10 @@ class MainActivity : AppCompatActivity() {
                     val user: Users? = snapshot.getValue(Users::class.java)
 
                     tv_user_name.text = user!!.getUserName()
-                    Picasso.get().load(user.getProfile()).into(iv_profile)
+                    Glide.with(this@MainActivity)
+                        .load(user.getProfile())
+                        .override(500)
+                        .into(iv_profile)
                 }
             }
 

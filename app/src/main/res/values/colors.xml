@@ -4,4 +4,7 @@
     <color name="colorPrimaryDark">#1C223C</color>
     <color name="colorAccent">#1C223C</color>
     <color name="colorProfile">#1C223C</color>
+    <color name="civGreen">#05df29</color>
+    <color name="civGrey">#bfbfbf</color>
+    <color name="colorBackground">#e6e6e6</color>
 </resources>

@@ -6,18 +6,17 @@
     tools:context=".fragment.SearchFragment">
 
     <EditText
-        android:id="@+id/searchUsersET"
+        android:id="@+id/et_search"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/_6dp"
         android:hint="@string/search_users_here"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/searchList"
+        android:id="@+id/rv_search_list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/searchUsersET">
+        android:layout_below="@+id/et_search"/>
 
-    </androidx.recyclerview.widget.RecyclerView>
 
 </RelativeLayout>

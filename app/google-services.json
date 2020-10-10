@@ -8,7 +8,44 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:413902689423:android:7c9f5879858285174e0cfa",
+        "mobilesdk_app_id": "1:413902689423:android:ef31afc811059c584e0cfa",
+        "android_client_info": {
+          "package_name": "com.sitiaisyah.idn.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "413902689423-5lap3udnrbm7h1a55ss5grlac31lt3pb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sitiaisyah.idn.chatapp",
+            "certificate_hash": "5321a8996157d36b0e47e01bb0c927a91131a07a"
+          }
+        },
+        {
+          "client_id": "413902689423-p46pr5u91cjcg70fdji616g67dnfpl11.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDK0WAfmC4NrHNEoF3nwXlcxGHeT0PWd4I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "413902689423-p46pr5u91cjcg70fdji616g67dnfpl11.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:413902689423:android:ffdb9140b4a4e72c4e0cfa",
         "android_client_info": {
           "package_name": "com.sitiaisyah.idn.chattingapps"
         }

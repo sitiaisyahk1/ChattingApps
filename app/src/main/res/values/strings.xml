@@ -21,5 +21,16 @@
     <string name="search_users_here">Search Users Here...</string>
     <string name="welcome">WELCOME</string>
     <string name="send_message">Send Message</string>
-    <string name="write_message_here">Write Message Here...</string>
+    <string name="upload">Uploading</string>
+    <string name="wait_for_upload">Please wait..</string>
+    <string name="write_something">please write something..</string>
+    <string name="updated">Updated</string>
+    <string name="image_button">Image Button</string>
+    <string name="write_message_here">Write Message Here</string>
+    <string name="write_message_first">Please write a message first...</string>
+    <string name="pick_image">Pick Image</string>
+    <string name="image_upload">Image is uploading, please wait..</string>
+    <string name="no_message">No Message</string>
+    <string name="image_sent">Image Sent</string>
+    <string name="image_view">Image view</string>
 </resources>

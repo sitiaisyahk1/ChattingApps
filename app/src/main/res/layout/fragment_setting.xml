@@ -7,7 +7,7 @@
     tools:context=".fragment.SettingFragment">
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cv1"
+        android:id="@+id/cv_setting"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/_10dp">
@@ -18,14 +18,14 @@
             android:padding="@dimen/_10dp">
 
             <ImageView
-                android:id="@+id/cover_image_setting"
+                android:id="@+id/iv_cover"
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/cover" />
 
             <de.hdodenhof.circleimageview.CircleImageView
-                android:id="@+id/profile_image_settings"
+                android:id="@+id/iv_profile_setting"
                 android:layout_width="@dimen/_150dp"
                 android:layout_height="@dimen/_150dp"
                 android:layout_centerHorizontal="true"
@@ -34,10 +34,10 @@
                 android:src="@drawable/profile" />
 
             <TextView
-                android:id="@+id/username_settings"
+                android:id="@+id/tv_username_setting"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/profile_image_settings"
+                android:layout_below="@id/iv_profile_setting"
                 android:layout_centerHorizontal="true"
                 android:layout_marginTop="15dp"
                 android:layout_marginBottom="20dp"
@@ -53,7 +53,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/cv1"
+        android:layout_below="@+id/cv_setting"
         android:layout_marginTop="40dp"
         android:background="@color/colorProfile"
         android:gravity="center"
@@ -61,7 +61,7 @@
         android:padding="@dimen/_6dp">
 
         <ImageView
-            android:id="@+id/set_facebook"
+            android:id="@+id/iv_facebook"
             android:layout_width="@dimen/_60dp"
             android:layout_height="@dimen/_60dp"
             android:layout_gravity="center"
@@ -71,7 +71,7 @@
             android:src="@drawable/fb" />
 
         <ImageView
-            android:id="@+id/set_instagram"
+            android:id="@+id/iv_instagram"
             android:layout_width="@dimen/_60dp"
             android:layout_height="@dimen/_60dp"
             android:layout_gravity="center"
@@ -81,7 +81,7 @@
             android:src="@drawable/instagram" />
 
         <ImageView
-            android:id="@+id/set_website"
+            android:id="@+id/iv_website"
             android:layout_width="@dimen/_60dp"
             android:layout_height="@dimen/_60dp"
             android:layout_gravity="center"

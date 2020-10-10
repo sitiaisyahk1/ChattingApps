@@ -1,6 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="290dp"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_profile_chat"
+        android:layout_width="@dimen/_40dp"
+        android:layout_height="@dimen/_40dp"
+        android:src="@drawable/profile" />
+
+    <TextView
+        android:id="@+id/tv_show_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_6dp"
+        android:layout_toEndOf="@id/iv_profile_chat"
+        android:text="@string/text_user_name"
+        android:textSize="@dimen/_18sp" />
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_toEndOf="@id/iv_profile_chat"
+        android:layout_marginStart="@dimen/_6dp"
+        android:background="@color/colorPrimaryDark"
+        android:visibility="gone"
+        android:contentDescription="@string/image_view"
+        android:id="@+id/iv_image_left"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@id/tv_show_message"
+        android:id="@+id/tv_seen"/>
+
+</RelativeLayout>

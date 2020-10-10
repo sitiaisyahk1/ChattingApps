@@ -7,7 +7,7 @@
     tools:context=".activity.ViewFullImageActivity">
 
     <ImageView
-        android:id="@+id/image_viewer"
+        android:id="@+id/iv_full_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
